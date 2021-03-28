@@ -1,0 +1,39 @@
+@import 
+    url(//db.onlinewebfonts.com/c/ab9e217344fdb034ebe532a57dcb3590?family=Droid+Arabic+Naskh),
+    url(//db.onlinewebfonts.com/c/125063e353c1f65c55ba1e3811969217?family=GE+SS+Two+Medium),
+    url(../fonts/GE-SS-Two-Medium/GE-SS-Two-Medium.eot),
+    url(../fonts/GE-SS-Two-Medium/GE-SS-Two-Medium.svg),
+    url(../fonts/GE-SS-Two-Medium/GE-SS-Two-Medium.ttf),
+    url(../fonts/GE-SS-Two-Medium/GE-SS-Two-Medium.woff),
+    url(../fonts/GE-SS-Two-Medium/GE-SS-Two-Medium.woff2),
+    url(../fonts/GE-SS-Two-Medium/GE-SS-Two-Medium.otf),
+    url(../fonts/Droid-Arabic-Naskh/Droid-Arabic-Naskh.woff2),
+    url(../fonts/Droid-Arabic-Naskh/Droid-Arabic-Naskh.svg),
+    url(../fonts/Droid-Arabic-Naskh/Droid-Arabic-Naskh.woff),
+    url(../fonts/Droid-Arabic-Naskh/Droid-Arabic-Naskh.ttf),
+    url(../fonts/Droid-Arabic-Naskh/Droid-Arabic-Naskh.eot),
+    url(../fonts/Droid-Arabic-Naskh/Droid-Arabic-Naskh.otf);
+
+
+@font-face {
+    font-family: "GE SS Two Medium"; 
+    src: url("//db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.eot"); 
+    src: url("//db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.eot?#iefix") format("embedded-opentype"), 
+         url("//db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.woff") format("woff"), 
+         url("//db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.ttf") format("truetype"), 
+         url("//db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.svg#GE SS Two Medium") format("svg"); }
+
+@font-face {
+    font-family: "Droid Arabic Naskh"; 
+    src: url("//db.onlinewebfonts.com/t/ab9e217344fdb034ebe532a57dcb3590.eot"); 
+    src: url("//db.onlinewebfonts.com/t/ab9e217344fdb034ebe532a57dcb3590.eot?#iefix") format("embedded-opentype"), 
+         url("//db.onlinewebfonts.com/t/ab9e217344fdb034ebe532a57dcb3590.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/ab9e217344fdb034ebe532a57dcb3590.woff") format("woff"), 
+         url("//db.onlinewebfonts.com/t/ab9e217344fdb034ebe532a57dcb3590.ttf") format("truetype"), 
+         url("//db.onlinewebfonts.com/t/ab9e217344fdb034ebe532a57dcb3590.svg#Droid Arabic Naskh") format("svg"); }
+
+
+
+$mainFont: "GE SS Two Medium";
+$secondFont: "Droid Arabic Naskh";

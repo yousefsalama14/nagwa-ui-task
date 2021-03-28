@@ -1,0 +1,42 @@
+doctype html
+html(lang="ar" dir="rtl")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/main.css")
+        title Homepage
+    body
+        section.content-area 
+            .row
+                .col.overview
+                    .math-teacher.text-center 
+                        .image-wrap
+                            img(src="imgs/youssef-elsherif-profile.png", alt="يوسف الشريف")
+                        h1.name#responsive_headline يوسف الشريف
+                        h2.title مدرس رياضيات
+                        .description 
+                            p مدرس أول رياضيات حاصل على بكالريوس تربية من جامعة عين شمس وحاصل على ماجستير الرياضيات من جامعة كامبريدج البريطانية وعضو الجمعية العمومية لعلوم الرياضيات في جامعة القاهرة.
+                        .social-media 
+                            ul 
+                                li 
+                                    a(href="#") 
+                                        img(src="imgs/facebook.png", alt="facebook")
+                                li 
+                                    a(href="#") 
+                                        img(src="imgs/twitter.png", alt="twitter")
+                                li 
+                                    a(href="#") 
+                                        img(src="imgs/youtube.png", alt="youtube")
+                                
+                .col.form
+                    form(action="#")
+                        label(for="login-url") تسجيل الدخول  
+                        input(type="text" placeholder="اسم المستخدم" onfocus="this.placeholder = ''" onblur="this.placeholder = 'اسم المستخدم'")
+                        input(type="password" placeholder="كلمة المرور" onfocus="this.placeholder = ''" onblur="this.placeholder = 'كلمة المرور'")
+                        button تسجيل دخول
+
+        footer.text-center
+            .container
+                p حقوق الطبع والنشر © ٢٠٢٠ يوسف الشريف
+                p جميع الحقوق محفوظة

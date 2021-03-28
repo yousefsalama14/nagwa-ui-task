@@ -1,0 +1,54 @@
+// overlay mixin //
+
+@mixin overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// prefix mixin //
+
+@mixin prefixer($property, $value, $prefixes: ()) {
+    @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $property}: $value;
+    }
+    #{$property} : $value;
+}
+
+// global //
+@mixin transition-2{
+    transition: .2s all ease-in-out;
+}
+
+@mixin line-height{
+    line-height: 1.8;
+}
+@mixin letter-spacing{
+    letter-spacing:0.7px; 
+}
+@mixin main-button{
+    background-color: transparent;
+    padding: 0 23px;
+    display: inline-block;
+    @include line-height;
+    border: 2px solid #f9004d;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    @include transition-2;
+    &:hover{
+        background-color: $mainColor;
+        transform: translateY(-3px);
+    }
+}
+@mixin background-pro{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

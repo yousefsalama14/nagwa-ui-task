@@ -1,0 +1,13 @@
+$extraSmall: "(max-width: 575.98px)";
+$small: "(min-width: 576px) and (max-width: 767.98px)";
+$medium: "(min-width: 768px) and (max-width: 991.98px)";
+$large: "(min-width: 992px) and (max-width: 1199.98px)";
+$extraLarge: "(min-width: 1200px)";
+
+$smallAndUp: "(min-width: 576px)";
+$mediumAndUp: "(min-width: 768px)";
+$largeAndUp: "(min-width: 992px)";
+
+$smallAndLess: "(max-width: 767.98px)";
+$mediumAndLess: "(max-width: 991.98px)";
+$largeAndLess: "(max-width: 1199.98px)";
