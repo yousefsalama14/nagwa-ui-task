@@ -1,2 +1,2 @@
 ## Nagwa UI Task
-### You will see render files in dist file
+### You will see render files in dist folder
